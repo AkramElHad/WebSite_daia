@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
-use App\Mail\ContactMail; // Assurez-vous que cette ligne est correcte
+use App\Mail\ContactMail;
+use App\Models\Article; // Importation du modèle Article
 
 class HomeController extends Controller
 {
@@ -15,7 +16,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        // Récupérer tous les articles de la base de données
+        $articles = Article::all();
+
+        // Passer les articles à la vue welcome
+        return view('welcome', compact('articles'));
     }
 
     /**
@@ -25,27 +30,26 @@ class HomeController extends Controller
      * @return \Illuminate\Http\RedirectResponse
      */
     public function sendContact(Request $request)
-{
-    $request->validate([
-        'name' => 'required|string|max:255',
-        'email' => 'required|email|max:255',
-        'phone' => 'required|string|max:20',
-        'message' => 'required|string|max:1000',
-    ]);
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'phone' => 'required|string|max:20',
+            'message' => 'required|string|max:1000',
+        ]);
 
-    $details = [
-        'name' => $request->name,
-        'email' => $request->email,
-        'phone' => $request->phone,
-        'message' => $request->message,
-    ];
+        $details = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'message' => $request->message,
+        ];
 
-    try {
-        Mail::to('akram.elhadhoudi@daia-technologie.ma')->send(new ContactMail($details));
-        return back()->with('success', 'Votre message a été envoyé avec succès.');
-    } catch (\Exception $e) {
-        return back()->with('error', 'Une erreur s\'est produite lors de l\'envoi de votre message. Veuillez réessayer plus tard.');
+        try {
+            Mail::to('akram.elhadhoudi@daia-technologie.ma')->send(new ContactMail($details));
+            return back()->with('success', 'Votre message a été envoyé avec succès.');
+        } catch (\Exception $e) {
+            return back()->with('error', 'Une erreur s\'est produite lors de l\'envoi de votre message. Veuillez réessayer plus tard.');
+        }
     }
-}
-
 }

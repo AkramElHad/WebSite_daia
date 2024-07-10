@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <title>DAIA TECHNOLOGIE</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap Icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
-        <!-- Google fonts-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <!-- SimpleLightbox plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <title>DAIA TECHNOLOGIE</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <!-- SimpleLightbox plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
 <body id="page-top">
-    <!-- Navigation--> 
+    <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container px-4 px-lg-5">
             <span class="navbar-brand">
@@ -41,30 +39,28 @@
     </nav>
     <!-- Masthead-->
     <section id="accueil">
-    <header class="masthead">
-        <div class="container px-4 px-lg-5 h-100">
-            <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                <div class="col-lg-8 align-self-end">
-                    <h1 class="text-white">DAIA TECHNOLOGIE</h1>
-                </div>
-                <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 mb-5" id="animated-text">
-                    </p>
-                    <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white">DAIA TECHNOLOGIE</h1>
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5" id="animated-text">
+                        </p>
+                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
     </section>
     <!-- About-->
     <section class="page-section bg-primary" id="about">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2 class="text-white-15 mt-0">À Propos de DAIA Technologie
-                    </h2>
-                    <p class="text-white-70 mb-4" id="animated-texte">Daia Technologie est une agence marocaine, de conseil en stratégie média et branding. Daia Technologie accompagne les annonceurs afin de promouvoir 
-                        leur image de marque, grâce à son œil graphique pointu et sa main technologique qualifiée. De la réflexion à la créativité, vous êtes au cœur des stratégies de notre agence, délivrant des solutions adaptées à votre secteur d’activité. Pour vous fournir des réalisations de qualité, parfaitement alignées avec vos objectifs, nous vous impliquons du début du processus à la fin de la création de votre projet. Orientée résultat, notre équipe pluridisciplinaire passionnée, dynamique et expérimentée met tout en œuvre pour atteindre les objectifs fixés.</p>
+                    <h2 class="text-white-15 mt-0">À Propos de DAIA Technologie</h2>
+                    <p class="text-white-70 mb-4" id="animated-texte">Daia Technologie est une agence marocaine, de conseil en stratégie média et branding. Daia Technologie accompagne les annonceurs afin de promouvoir leur image de marque, grâce à son œil graphique pointu et sa main technologique qualifiée. De la réflexion à la créativité, vous êtes au cœur des stratégies de notre agence, délivrant des solutions adaptées à votre secteur d’activité. Pour vous fournir des réalisations de qualité, parfaitement alignées avec vos objectifs, nous vous impliquons du début du processus à la fin de la création de votre projet. Orientée résultat, notre équipe pluridisciplinaire passionnée, dynamique et expérimentée met tout en œuvre pour atteindre les objectifs fixés.</p>
                     <a class="btn btn-light btn-xl" href="#services">Nos services !</a>
                 </div>
             </div>
@@ -74,29 +70,25 @@
     <section class="page-section prime" id="services">
         <div class="container px-4 px-lg-5">
             <h2 class="text-center mt-0">Pour votre services</h2>
-
             <div class="row gx-4 gx-lg-5">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-5">
                         <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
-                        <h3 class="h4 mb-2">Marketing digital
-                        </h3>
+                        <h3 class="h4 mb-2">Marketing digital</h3>
                         <p class="text-muted mb-0">Nous créons et exécutons des campagnes de marketing digital efficaces pour atteindre vos objectifs commerciaux.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-5">
                         <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-                        <h3 class="h4 mb-2">Production audiovisuelle
-                        </h3>
+                        <h3 class="h4 mb-2">Production audiovisuelle</h3>
                         <p class="text-muted mb-0">Nous donnons vie à vos idées créatives avec une production audiovisuelle professionnelle et captivante.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-5">
                         <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
-                        <h3 class="h4 mb-2">Création des évenemments
-                        </h3>
+                        <h3 class="h4 mb-2">Création des évenemments</h3>
                         <p class="text-muted mb-0">Créez des souvenirs mémorables à chaque événement avec notre expertise en organisation et production.</p>
                     </div>
                 </div>
@@ -121,7 +113,6 @@
                             <div class="project-category text-white-50"></div>
                             <div class="project-name"></div>
                         </div>
-
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
@@ -138,9 +129,7 @@
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/mi.png" alt="..." style="width: 500px; height: 350px;" />
                         <div class="portfolio-box-caption">
                             <div class="project-category text-white-50"></div>
-                            <div class="project-name">
-                                
-                            </div>
+                            <div class="project-name"></div>
                         </div>
                     </a>
                 </div>
@@ -176,107 +165,11 @@
     </div>
 
 
-   <section class="team">
-    <div class="conta">
-        <div class="center">
-            <h2> Notre équipe</h2>
-        </div>
-        <div class="row">
-        <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="member">
-                <div class="pic">
-                    <img src="assets/img/portfolio/tf.png" alt="">
 
-                </div>
-                <div class="member-info">
-                    <h4>Jamal Ghazal</h4>
-                    <span>Directeur général</span>
-                    <div class="social">
-                        <a href="https://www.instagram.com/votrepage" target="_blank" class="social-icon">
-                            <i class="fab fa-whatsapp"></i></a>
-                            <a href="https://www.instagram.com/votrepage" target="_blank" class="social-icon">
-                                <i class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="member">
-                <div class="pic">
-                    <img src="assets/img/portfolio/tOf.png" alt="">
-
-                </div>
-                <div class="member-info">
-                    <h4>Jamal Ghazal</h4>
-                    <span>Directeur général</span>
-                    <div class="social">
-                        <a href="https://www.instagram.com/votrepage" target="_blank" class="social-icon">
-                            <i class="fab fa-whatsapp"></i></a>
-                            <a href="https://www.instagram.com/votrepage" target="_blank" class="social-icon">
-                                <i class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="member">
-                <div class="pic">
-                    <img src="assets/img/portfolio/tf.png" alt="">
-
-                </div>
-                <div class="member-info">
-                    <h4>Jamal Ghazal</h4>
-                    <span>Directeur général</span>
-                    <div class="social">
-                        <a href="https://www.instagram.com/votrepage" target="_blank" class="social-icon">
-                            <i class="fab fa-whatsapp"></i></a>
-                            <a href="https://www.instagram.com/votrepage" target="_blank" class="social-icon">
-                                <i class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-        
-        <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="member">
-                <div class="pic">
-                    <img src="assets/img/portfolio/tOf.png" alt="">
-
-                </div>
-                <div class="member-info">
-                    <h4>Jamal Ghazal</h4>
-                    <span>Directeur général</span>
-                    <div class="social">
-                        <a href="https://www.instagram.com/votrepage" target="_blank" class="social-icon">
-                            <i class="fab fa-whatsapp"></i></a>
-                            <a href="https://www.instagram.com/votrepage" target="_blank" class="social-icon">
-                                <i class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-    </div>
-
-
-   </section>
-
+    @include('articles')
 
     <section class="clients-section">
-
         <h2>Nos Clients</h2>
-
         <div class="clients-logos">
             <img src="assets/img/portfolio/ama_holding-removebg-preview.png" alt="Client 1">
             <img src="assets/img/portfolio/engraiss-removebg-preview.png" alt="Client 2">
@@ -291,10 +184,8 @@
             <img src="assets/img/portfolio/ocp-removebg-preview.png" alt="Client 10">
             <img src="assets/img/portfolio/aa-removebg-preview.png" alt="Client 10">
             <img src="assets/img/portfolio/rr-removebg-preview.png" alt="Client 10">
-          
         </div>
     </section>
-    
 
     <section class="page-section" id="contact" href="#contact">
         <div class="container px-4 px-lg-5">
@@ -361,7 +252,6 @@
         <div class="foot">
             <p><i class="fas fa-envelope"></i> Email : contactdaia@gmail.com</p>
             <p><i class="fas fa-phone"></i> Téléphone : +212 623415967</p>
-
         </div>
     </footer>
     <!-- Bootstrap core JS-->
