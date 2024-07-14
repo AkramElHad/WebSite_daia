@@ -23,6 +23,18 @@ class HomeController extends Controller
         return view('welcome', compact('articles'));
     }
 
+    public function market(){
+        return view('marketing');
+    }
+
+    public function prod(){
+        return view ('production');
+    }
+
+    public function creat(){
+        return view ('evenn');
+    }
+
     /**
      * Send the contact form data.
      *

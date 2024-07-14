@@ -11,164 +11,170 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Google fonts-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
     <!-- SimpleLightbox plugin CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+
 </head>
 <body id="page-top">
+
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container px-4 px-lg-5">
             <span class="navbar-brand">
-                <img src="https://daia-technologie.ma/logo.svg" alt="Logo de l'entreprise">
+                <img src="https://daia-technologie.ma/logo.svg" alt="Logo de l'entreprise" class="log">
             </span>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button> 
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#about">Accueil</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#propos">À Propos</a></li>
+
+
+
+                    <!--<li class="nav-item dropdown "> <a class="nav-link" href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li ><a href="{{route('market')}}">ggt</a></li>
+                        </ul>
+                    </li> -->
+                    
+
+                    <li class="nav-item"><a class="nav-link" href="#service">Services <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown__menu">
+                        <ul>
+                            <li>
+                                <a href="{{route('market')}}">Marketing digital</a>
+                                <a href="{{route('market')}}">Marketing digital</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Masthead-->
-    <section id="accueil">
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white">DAIA TECHNOLOGIE</h1>
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5" id="animated-text">
-                        </p>
-                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-    </section>
-    <!-- About-->
-    <section class="page-section bg-primary" id="about">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="text-white-15 mt-0">À Propos de DAIA Technologie</h2>
-                    <p class="text-white-70 mb-4" id="animated-texte">Daia Technologie est une agence marocaine, de conseil en stratégie média et branding. Daia Technologie accompagne les annonceurs afin de promouvoir leur image de marque, grâce à son œil graphique pointu et sa main technologique qualifiée. De la réflexion à la créativité, vous êtes au cœur des stratégies de notre agence, délivrant des solutions adaptées à votre secteur d’activité. Pour vous fournir des réalisations de qualité, parfaitement alignées avec vos objectifs, nous vous impliquons du début du processus à la fin de la création de votre projet. Orientée résultat, notre équipe pluridisciplinaire passionnée, dynamique et expérimentée met tout en œuvre pour atteindre les objectifs fixés.</p>
-                    <a class="btn btn-light btn-xl" href="#services">Nos services !</a>
-                </div>
+
+    <style>
+        .pa {
+            border-bottom: 4px solid rgb(76, 117, 76); 
+            padding-bottom: 9px;
+        }
+    </style>
+
+<section id="accueil">
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 h-100">
+            <div class="col-lg-6 dai">
+                <p class="pa">
+                    <span class="highlight">Daia Technologie</span> 
+                    <span class="lp">vous aide à découvrir le secret du marketing digital, de la production audiovisuelle et de la création d'événements.</span> 
+                </p>                    
             </div>
         </div>
-    </section>
-    <!-- Services-->
-    <section class="page-section prime" id="services">
+    </header>
+</section>
+
+    
+    <!-- About-->
+    <section class="page-section bg-light" id="propos">
         <div class="container px-4 px-lg-5">
-            <h2 class="text-center mt-0">Pour votre services</h2>
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
-                        <h3 class="h4 mb-2">Marketing digital</h3>
-                        <p class="text-muted mb-0">Nous créons et exécutons des campagnes de marketing digital efficaces pour atteindre vos objectifs commerciaux.</p>
-                    </div>
+            <div class="row gx-4 gx-lg-5 align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-heading">À PROPOS DE</h2>
+                    <h3 class="section-subheading">DAIA TECHNOLOGIE</h3>
+                    <p class="text-muted">Daia Technologie est une agence marocaine, de conseil en stratégie média et branding. Daia Technologie accompagne les annonceurs afin de promouvoir leur image de marque, grâce à son œil graphique pointu et sa main technologique qualifiée. De la réflexion à la créativité, vous êtes au cœur des stratégies de notre agence, délivrant des solutions adaptées à votre secteur d’activité. Pour vous fournir des réalisations de qualité, parfaitement alignées avec vos objectifs, nous vous impliquons du début du processus à la fin de la création de votre projet. Orientée résultat, notre équipe pluridisciplinaire passionnée, dynamique et expérimentée met tout en œuvre pour atteindre les objectifs fixés.</p>
+                    <a class="btn btn-success" href="#service">Plus !</a>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-                        <h3 class="h4 mb-2">Production audiovisuelle</h3>
-                        <p class="text-muted mb-0">Nous donnons vie à vos idées créatives avec une production audiovisuelle professionnelle et captivante.</p>
-                    </div>
+                <div class="col-lg-6 background-image-container">
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D" alt="About DAIA Technologie">
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
-                        <h3 class="h4 mb-2">Création des évenemments</h3>
-                        <p class="text-muted mb-0">Créez des souvenirs mémorables à chaque événement avec notre expertise en organisation et production.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
-                        <h3 class="h4 mb-2">On vous accompagne !</h3>
-                        <p class="text-muted mb-0">DAIA Technologie vous accompagne à chaque étape de votre projet, pour donner vie à vos idées et réaliser vos ambitions.</p>
-                    </div>
-                </div>
+                
+                
             </div>
         </div>
     </section>
 
-    <div id="portfolio">
-        <div class="container-fluid p-0">
-            <div class="row g-0">
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/mo.png"> 
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/mo.png" alt="..." style="width: 500px; height: 350px;" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50"></div>
-                            <div class="project-name"></div>
-                        </div>
-                    </a>
+
+
+    <section class="new-section bg-light" id="service">
+        <p class="oo">Découvrez nos services !</p>
+    
+        <div class="container">
+            <a href="{{route('market')}}" class="card-link">
+                <div class="card">
+                    <h2>Marketing Digital</h2>
+                    <p>Nous créons et exécutons des campagnes de marketing digital efficaces pour atteindre vos objectifs commerciaux.</p>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/ma.png">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/ma.png" alt="..." style="width: 500px; height: 350px;" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50"></div>
-                            <div class="project-name"></div>
-                        </div>
-                    </a>
+            </a>
+            
+            <a href="{{route('product')}}" class="card-link">
+                <div class="card">
+                    <h2>Production audiovisuelle</h2>
+                    <p>Nous donnons vie à vos idées créatives avec une production audiovisuelle professionnelle et captivante.</p>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/mi.png" >
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/mi.png" alt="..." style="width: 500px; height: 350px;" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50"></div>
-                            <div class="project-name"></div>
-                        </div>
-                    </a>
+            </a>
+            
+            <a href="{{route('creation')}}" class="card-link">
+                <div class="card">
+                    <h2>Création des évennements</h2>
+                    <p>Créez des souvenirs mémorables à chaque événement avec notre expertise en organisation et production.</p>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/mu.png">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/mu.png" alt="..." style="width: 500px; height: 350px;" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50"></div>
-                            <div class="project-name"></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/mv.png">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/mv.png" alt="..." style="width: 500px; height: 350px;" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50"></div>
-                            <div class="project-name"></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/ml.png">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/ml.png" alt="..." style="width: 500px; height: 350px;" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50"></div>
-                            <div class="project-name"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+            </a>
         </div>
-    </div>
+    </section>
+    
+    
+    
+
+    <!-- Section équipe-->
+
+    <section class="page-section bg-light">
+        <div class="container px-4 px-lg-5">
+            <p class="tm text-center"> Notre équipe</p>
+            <div class="row justify-content-center">
+                <!-- Première carte membre d'équipe -->
+                <div class="row justify-content-center">
+                    <!-- Première carte membre d'équipe -->
+                    <div class="col-12 col-sm-6 col-md-4 mb-3 d-flex justify-content-center">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="assets/img/portfolio/tf.png" alt="Mr Jamal Ghazal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Mr Jamal Ghazal</h5>
+                                <p class="card-text">Directeur Général</p>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Deuxième carte membre d'équipe -->
+                    <div class="col-12 col-sm-6 col-md-4 mb-3 d-flex justify-content-center">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="assets/img/portfolio/tof.png" alt="Mme Meryem MOUNIR">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Mme aaa aa</h5>
+                                <p class="card-text">Responsable R.H</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+        </div>
+
+
+    </section>
 
 
 
     @include('articles')
 
-    <section class="clients-section">
+    <section class="clients-section bg-light">
         <h2>Nos Clients</h2>
         <div class="clients-logos">
             <img src="assets/img/portfolio/ama_holding-removebg-preview.png" alt="Client 1">
@@ -259,6 +265,10 @@
     <!-- SimpleLightbox plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
     <!-- Core theme JS-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
     <script src="js/scripts.js"></script>
+    <script src="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />"></script>
+
 </body>
 </html>

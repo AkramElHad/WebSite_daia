@@ -8,6 +8,10 @@ use Illuminate\Support\Facades\Route;
 // Route pour la page d'accueil
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/', [HomeController::class, 'index'])->name('welcome');
+Route::get('/marketing digital', [HomeController::class, 'market'])->name('market');
+Route::get('production audiovisuelle', [HomeController::class, 'prod'])->name('product');
+Route::get('création des évennements', [HomeController::class, 'creat'])->name('creation');
+
 
 
 // Route pour le formulaire de contact
